@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Facial Authentication System</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Homepage</h2>
+            <img src="{{ url_for('static', filename='images/1.jpg') }}" alt="Homepage">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Facial Authentication System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
